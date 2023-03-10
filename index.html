@@ -1,0 +1,41 @@
+
+
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title>CurrenSee</title>
+      <link rel="manifest"
+        href="manifest.json">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>CurrenSee</h1>
+      <form>
+        <label>USD:</label>
+        <input type="number" id="usd" oninput="convertCurrency()" value="0">
+        <br><br>
+        <table>
+          <tr class="row1">
+            <td>INR:</td>
+            <td><span id="inr">0.00</span></td>
+          </tr>
+          <tr class="row2">
+            <td>AED:</td>
+            <td><span id="aed">0.00</span></td>
+          </tr>
+          <tr class="row1">
+            <td>GBP:</td>
+            <td><span id="gbp">0.00</span></td>
+          </tr>
+          <tr class="row2">
+            <td>Qatar Riyal:</td>
+            <td><span id="qar">0.00</span></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+

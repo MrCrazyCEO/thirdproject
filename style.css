@@ -1,0 +1,19 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  text-align: left;
+}
+
+tr.row1 {
+  background-color: #f2f2f2;
+}
+
+tr.row2 {
+  background-color: #e6e6e6;
+}
